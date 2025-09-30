@@ -28,6 +28,10 @@ A **multi-language SDK** for bypassing anti-bot protection systems including **D
 
 Perfect for **web scraping**, **automation**, **testing**, and **bot development** that requires bypassing bot detection systems.
 
+### 📚 SDK Documentation
+
+[**Go**](docs/go.md) • [**TypeScript**](docs/typescript.md) • [**Python**](docs/python.md) • [**Playwright**](docs/playwright.md)
+
 ### 🌟 Why Choose Parallax?
 
 <table>
