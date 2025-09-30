@@ -32,17 +32,27 @@ Perfect for **web scraping**, **automation**, **testing**, and **bot development
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
+
+<div align="center">
 
 **⚡ Lightning Fast**
+
+</div>
+
 - DataDome cookies in ~200ms
 - PerimeterX cookies in ~350-400ms
 - Request-based, no browser overhead
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
+
+<div align="center">
 
 **🚀 Developer Friendly**
+
+</div>
+
 - Simple REST API
 - 4+ language SDKs
 - Comprehensive documentation
@@ -50,17 +60,27 @@ Perfect for **web scraping**, **automation**, **testing**, and **bot development
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
+
+<div align="center">
 
 **🔒 Enterprise Security**
+
+</div>
+
 - End-to-end encryption
 - SOC 2 compliant infrastructure
 - Zero data retention policy
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
+
+<div align="center">
 
 **📦 Production Ready**
+
+</div>
+
 - 99.9% uptime SLA
 - Scalable infrastructure
 - 24/7 support available
