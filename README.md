@@ -315,14 +315,6 @@ console.log(`_px3: ${result.cookie}\n_pxvid: ${result.vid}\npxcts: ${result.cts}
 
 ## 📚 Documentation
 
-### 📖 Core Documentation
-
-| Guide | Description |
-|-------|-------------|
-| **[DataDome Guide](docs/datadome.md)** | Complete DataDome bypass API reference with advanced examples |
-| **[PerimeterX Guide](docs/perimeterx.md)** | PerimeterX bypass API reference, hold captcha solver, and examples |
-| **[Code Examples](docs/examples.md)** | Production-ready code samples for all supported languages |
-
 ### 🔧 SDK-Specific Guides
 
 | Language | Documentation | Examples |
