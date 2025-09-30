@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="logo.png" alt="Parallax Systems" width="60"/>
+
 # Parallax Systems SDK
 ### Request-Based Anti-Bot Solution
 
