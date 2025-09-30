@@ -1,7 +1,6 @@
 <div align="center">
 
 # Parallax Systems SDK
-
 ### Request-Based Anti-Bot Solution
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Us-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/2QWbHcmWnf)
