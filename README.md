@@ -2,7 +2,7 @@
 
 # Parallax APIs SDK
 
-### Professional Request-Based Anti-Bot Solution
+### Request-Based Anti-Bot Solution
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Us-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/2QWbHcmWnf)
 [![Website](https://img.shields.io/badge/Website-Visit-00D4FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.parallaxsystems.io)
