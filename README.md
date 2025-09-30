@@ -40,8 +40,8 @@ Parallax Systems SDK is a multi-language SDK for generating valid anti-bot prote
 **Key Highlights:**
 - ⚡ **Fast**: DataDome ~200ms, PerimeterX ~350-400ms
 - 🚀 **Simple**: Request-based API, no browser overhead
-- 🔒 **Secure**: Industry-standard security practices
-- 📦 **Production Ready**: Battle-tested and reliable
+- 🔒 **Secure**: Enterprise-grade encryption and data protection
+- 📦 **Reliable**: Proven stability across production environments
 
 ---
 
