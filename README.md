@@ -1,6 +1,6 @@
 <div align="center">
 
-# Parallax APIs SDK
+# Parallax Systems SDK
 
 ### Request-Based Anti-Bot Solution
 
