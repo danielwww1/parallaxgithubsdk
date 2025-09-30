@@ -91,16 +91,12 @@ Perfect for **web scraping**, **automation**, **testing**, and **bot development
 
 ### 🛠️ Supported Languages
 
-<div align="center">
-
 | Language | Status | Install |
-|:--------:|:------:|:-------:|
-| ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white) | ✅ Ready | `go get parallax-sdk` |
-| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | ✅ Ready | `npm install @parallax/sdk` |
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | ✅ Ready | `pip install parallax-sdk` |
-| ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white) | ✅ Ready | `npm install @parallax/playwright-sdk` |
-
-</div>
+|----------|:------:|---------|
+| ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white) | ✅ | `go get parallax-sdk` |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | ✅ | `npm install @parallax/sdk` |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | ✅ | `pip install parallax-sdk` |
+| ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white) | ✅ | `npm install @parallax/playwright-sdk` |
 
 ---
 
