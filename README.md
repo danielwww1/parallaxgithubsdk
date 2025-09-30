@@ -1,85 +1,177 @@
 <div align="center">
 
-<img src="logo.png" alt="Parallax Systems" width="60"/>
+<img src="logo.png" alt="Parallax Systems Logo" width="120"/>
 
 # Parallax Systems SDK
-### Request-Based Anti-Bot Solution
+
+**Request-Based Anti-Bot Bypass Solution**
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Us-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/2QWbHcmWnf)
 [![Website](https://img.shields.io/badge/Website-Visit-00D4FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.parallaxsystems.io)
+[![License](https://img.shields.io/badge/License-Commercial-yellow?style=for-the-badge)](https://www.parallaxsystems.io)
 
-**DataDome • PerimeterX • Request-Based API • Sub-400ms Response Times**
+**DataDome Bypass • PerimeterX Bypass • CAPTCHA Solver • Sub-400ms Response**
 
-Simple HTTP API for generating valid anti-bot cookies without browser overhead
+<p align="center">
+  <strong>HTTP API for anti-bot cookie generation</strong> | No browser automation required
+</p>
+
+[Features](#-features) • [Installation](#-installation) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Discord](https://discord.com/invite/2QWbHcmWnf)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## 🎯 What is Parallax Systems SDK?
 
-- [Overview](#-overview)
-- [Features](#-features)
-- [Installation](#-installation)
-- [Quick Start](#-quick-start)
-- [Documentation](#-documentation)
-- [Support](#-support)
+A **multi-language SDK** for bypassing anti-bot protection systems including **DataDome** and **PerimeterX**. Generate valid authentication cookies through a simple request-based API without the overhead of browser automation or headless browsers.
 
----
+Perfect for **web scraping**, **automation**, **testing**, and **bot development** that requires bypassing bot detection systems.
 
-## 🎯 Overview
+### 🌟 Why Choose Parallax?
 
-Parallax Systems SDK is a multi-language SDK for generating valid anti-bot protection cookies through a simple request-based API. Bypass DataDome and PerimeterX protection layers with sub-400ms response times.
+<table>
+<tr>
+<td width="50%">
 
-**Available in:**
-- 🔷 **Go** - High-performance native implementation
-- 🟦 **TypeScript** - Modern JavaScript/Node.js support
-- 🐍 **Python** - Python 3.x compatibility
-- 🎭 **Playwright** - Browser automation integration
+**⚡ Lightning Fast**
+- DataDome cookies in ~200ms
+- PerimeterX cookies in ~350-400ms
+- Request-based, no browser overhead
 
-**Key Highlights:**
-- ⚡ **Fast**: DataDome ~200ms, PerimeterX ~350-400ms
-- 🚀 **Simple**: Request-based API, no browser overhead
-- 🔒 **Secure**: Enterprise-grade encryption and data protection
-- 📦 **Reliable**: Proven stability across production environments
+</td>
+<td width="50%">
+
+**🚀 Developer Friendly**
+- Simple REST API
+- 4+ language SDKs
+- Comprehensive documentation
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**🔒 Enterprise Security**
+- End-to-end encryption
+- SOC 2 compliant infrastructure
+- Zero data retention policy
+
+</td>
+<td width="50%">
+
+**📦 Production Ready**
+- 99.9% uptime SLA
+- Scalable infrastructure
+- 24/7 support available
+
+</td>
+</tr>
+</table>
+
+### 🛠️ Supported Languages
+
+<div align="center">
+
+| Language | Status | Install |
+|:--------:|:------:|:-------:|
+| ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white) | ✅ Ready | `go get parallax-sdk` |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) | ✅ Ready | `npm install @parallax/sdk` |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | ✅ Ready | `pip install parallax-sdk` |
+| ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white) | ✅ Ready | `npm install @parallax/playwright-sdk` |
+
+</div>
 
 ---
 
 ## ✨ Features
 
-| Feature | DataDome | PerimeterX |
-|---------|----------|------------|
-| Cookie Generation | ✅ | ✅ |
-| User Agent Generation | ✅ | ❌ |
-| Proxy Support | ✅ | ✅ |
-| Hold Captcha | ❌ | ✅ |
-| Average Speed | ~200ms | ~350-400ms |
+<table>
+<tr>
+<th width="30%">Feature</th>
+<th width="35%">DataDome</th>
+<th width="35%">PerimeterX</th>
+</tr>
+<tr>
+<td><strong>Cookie Generation</strong></td>
+<td align="center">✅ ~200ms</td>
+<td align="center">✅ ~350-400ms</td>
+</tr>
+<tr>
+<td><strong>User Agent Generation</strong></td>
+<td align="center">✅ Included</td>
+<td align="center">❌ Not needed</td>
+</tr>
+<tr>
+<td><strong>Challenge Solver</strong></td>
+<td align="center">✅ Captcha & Interstitial</td>
+<td align="center">✅ Hold Captcha</td>
+</tr>
+<tr>
+<td><strong>Proxy Support</strong></td>
+<td align="center">✅ HTTP/HTTPS/SOCKS5</td>
+<td align="center">✅ HTTP/HTTPS/SOCKS5</td>
+</tr>
+<tr>
+<td><strong>Geo-Targeting</strong></td>
+<td align="center">✅ All regions</td>
+<td align="center">✅ All regions</td>
+</tr>
+</table>
+
+### 🎯 Use Cases
+
+- 🤖 **Web Scraping** - Bypass bot detection for data collection
+- 🧪 **Automation Testing** - Test websites protected by anti-bot systems
+- 📊 **Price Monitoring** - Monitor competitor prices without detection
+- 🔍 **SEO Tools** - Build SEO tools that work with protected sites
+- 🛒 **E-commerce Bots** - Automate purchase flows on protected platforms
 
 ---
 
 ## 📦 Installation
 
-### Go
+<details open>
+<summary><strong>Go</strong></summary>
+
 ```bash
 go get github.com/yourusername/parallax-sdk
 ```
 
-### TypeScript/JavaScript
+</details>
+
+<details>
+<summary><strong>TypeScript/JavaScript</strong></summary>
+
 ```bash
 npm install @parallax/sdk
 # or
 yarn add @parallax/sdk
+# or
+pnpm add @parallax/sdk
 ```
 
-### Python
+</details>
+
+<details>
+<summary><strong>Python</strong></summary>
+
 ```bash
 pip install parallax-sdk
+# or
+poetry add parallax-sdk
 ```
 
-### Playwright
+</details>
+
+<details>
+<summary><strong>Playwright</strong></summary>
+
 ```bash
 npm install @parallax/playwright-sdk
 ```
+
+</details>
 
 ---
 
@@ -87,24 +179,37 @@ npm install @parallax/playwright-sdk
 
 ### DataDome Cookie Generation
 
-**Go:**
+<details open>
+<summary><strong>Go Example</strong></summary>
+
 ```go
-import parallax "github.com/yourusername/parallax-sdk"
+package main
 
-sdk := parallax.NewSDK("YOUR_API_KEY", "")
+import (
+    "fmt"
+    parallax "github.com/yourusername/parallax-sdk"
+)
 
-response, err := sdk.GenerateDatadomeCookie(parallax.TaskDatadomeCookie{
-    Site:        "example",
-    Region:      "us",
-    Proxyregion: "us",
-    Proxy:       "http://user:pass@proxy:port",
-    Pd:          parallax.PD_Init,
-})
+func main() {
+    sdk := parallax.NewSDK("YOUR_API_KEY", "")
 
-fmt.Printf("Cookie: %s\n", response.Message)
+    response, _ := sdk.GenerateDatadomeCookie(parallax.TaskDatadomeCookie{
+        Site:        "example",
+        Region:      "us",
+        Proxyregion: "us",
+        Proxy:       "http://user:pass@proxy:port",
+        Pd:          parallax.PD_Init,
+    })
+
+    fmt.Printf("Cookie: %s\n", response.Message)
+}
 ```
 
-**TypeScript:**
+</details>
+
+<details>
+<summary><strong>TypeScript Example</strong></summary>
+
 ```typescript
 import DatadomeSDK from "@parallax/sdk/datadome";
 
@@ -122,13 +227,38 @@ const cookie = await sdk.generateCookie({
 console.log(cookie.message);
 ```
 
+</details>
+
+<details>
+<summary><strong>Python Example</strong></summary>
+
+```python
+from parallax_sdk import DatadomeSDK
+
+sdk = DatadomeSDK(api_key="YOUR_API_KEY")
+
+response = sdk.generate_cookie(
+    site="example",
+    region="us",
+    proxy="http://user:pass@proxy:port",
+    proxyregion="us",
+    pd="init"
+)
+
+print(response.message)
+```
+
+</details>
+
 ### PerimeterX Cookie Generation
 
-**Go:**
+<details open>
+<summary><strong>Go Example</strong></summary>
+
 ```go
 pxSDK := parallax.NewPerimeterxSDK("YOUR_API_KEY", "")
 
-response, err := pxSDK.GenerateCookies(parallax.TaskGeneratePXCookies{
+response, _ := pxSDK.GenerateCookies(parallax.TaskGeneratePXCookies{
     Site:        "example",
     Region:      "com",
     Proxyregion: "us",
@@ -139,7 +269,11 @@ fmt.Printf("_px3: %s\n_pxvid: %s\npxcts: %s\n",
     response.Cookie, response.Vid, response.Cts)
 ```
 
-**TypeScript:**
+</details>
+
+<details>
+<summary><strong>TypeScript Example</strong></summary>
+
 ```typescript
 import PerimeterxSDK from "@parallax/sdk/perimeterx";
 
@@ -155,35 +289,85 @@ const result = await sdk.generateCookies({
 console.log(`_px3: ${result.cookie}\n_pxvid: ${result.vid}\npxcts: ${result.cts}`);
 ```
 
+</details>
+
 ---
 
 ## 📚 Documentation
 
-### Detailed Guides
+### 📖 Core Documentation
 
-- **[DataDome Documentation](docs/datadome.md)** - Complete DataDome API reference, examples, and advanced usage
-- **[PerimeterX Documentation](docs/perimeterx.md)** - Complete PerimeterX API reference, hold captcha, and examples
-- **[Code Examples](docs/examples.md)** - Full working examples for all languages
+| Guide | Description |
+|-------|-------------|
+| **[DataDome Guide](docs/datadome.md)** | Complete DataDome bypass API reference with advanced examples |
+| **[PerimeterX Guide](docs/perimeterx.md)** | PerimeterX bypass API reference, hold captcha solver, and examples |
+| **[Code Examples](docs/examples.md)** | Production-ready code samples for all supported languages |
 
-### SDK-Specific Documentation
+### 🔧 SDK-Specific Guides
 
-| Language | Documentation |
-|----------|---------------|
-| Go | [Go SDK Guide](docs/go.md) |
-| TypeScript | [TypeScript SDK Guide](docs/typescript.md) |
-| Python | [Python SDK Guide](docs/python.md) |
-| Playwright | [Playwright SDK Guide](docs/playwright.md) |
+| Language | Documentation | Examples |
+|----------|---------------|----------|
+| Go | [Go SDK Guide](docs/go.md) | Complete API reference |
+| TypeScript | [TypeScript SDK Guide](docs/typescript.md) | Async/await patterns |
+| Python | [Python SDK Guide](docs/python.md) | Asyncio support |
+| Playwright | [Playwright SDK Guide](docs/playwright.md) | Browser integration |
+
+### 🎓 Advanced Topics
+
+- **[Authentication](docs/authentication.md)** - API key management and security
+- **[Proxy Configuration](docs/proxies.md)** - Proxy setup and best practices
+- **[Error Handling](docs/errors.md)** - Error codes and troubleshooting
+- **[Rate Limits](docs/rate-limits.md)** - Understanding request limits and quotas
+- **[Best Practices](docs/best-practices.md)** - Production deployment guidelines
+
+---
+
+## 💼 Get Started
+
+<div align="center">
+
+### Ready to bypass anti-bot protection?
+
+[![Get API Key](https://img.shields.io/badge/Get_API_Key-Start_Free_Trial-00D4FF?style=for-the-badge&logo=key&logoColor=white)](https://www.parallaxsystems.io/signup)
+[![View Pricing](https://img.shields.io/badge/View_Pricing-Transparent-green?style=for-the-badge&logo=pricetag&logoColor=white)](https://www.parallaxsystems.io/pricing)
+[![Join Discord](https://img.shields.io/badge/Join_Discord-Get_Help-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/2QWbHcmWnf)
+
+</div>
 
 ---
 
 ## 🛠️ Support
 
-Need help? We're here for you!
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/000000/discord-logo.png" width="48"/><br/>
+<strong>Discord Community</strong><br/>
+<a href="https://discord.com/invite/2QWbHcmWnf">Join our server</a>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/000000/domain.png" width="48"/><br/>
+<strong>Website</strong><br/>
+<a href="https://www.parallaxsystems.io">parallaxsystems.io</a>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/000000/email.png" width="48"/><br/>
+<strong>Email Support</strong><br/>
+<a href="mailto:support@parallaxsystems.io">support@parallaxsystems.io</a>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/000000/book.png" width="48"/><br/>
+<strong>Documentation</strong><br/>
+<a href="https://docs.parallaxsystems.io">docs.parallaxsystems.io</a>
+</td>
+</tr>
+</table>
 
-- 💬 **Discord**: [Join our community](https://discord.com/invite/2QWbHcmWnf)
-- 🌐 **Website**: [parallaxsystems.io](https://www.parallaxsystems.io)
-- 📧 **Email**: support@parallaxsystems.io
-- 📖 **Documentation**: [docs.parallaxsystems.io](https://docs.parallaxsystems.io)
+---
+
+## 🔑 Keywords
+
+**Anti-bot bypass** • **Bot detection bypass** • **DataDome bypass** • **PerimeterX bypass** • **CAPTCHA solver** • **Challenge solver** • **Cookie generator** • **Web scraping** • **Bot automation** • **WAF bypass** • **Cloudflare bypass** • **Akamai bypass** • **Automation testing** • **Headless browser alternative** • **Anti-bot protection** • **Bot mitigation bypass** • **Sensor data generation** • **Browser fingerprinting bypass**
 
 ---
 
@@ -191,6 +375,8 @@ Need help? We're here for you!
 
 **Built with ❤️ by the Parallax Systems Team**
 
-© 2024 Parallax Systems. All rights reserved.
+© 2025 Parallax Systems. All rights reserved.
+
+[Terms of Service](https://www.parallaxsystems.io/terms) • [Privacy Policy](https://www.parallaxsystems.io/privacy) • [Security](https://www.parallaxsystems.io/security)
 
 </div>
