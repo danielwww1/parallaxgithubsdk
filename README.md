@@ -1,13 +1,15 @@
 <div align="center">
 
-# 🛡️ Parallax APIs SDK
+# Parallax APIs SDK
 
-**Professional Anti-Bot Cookie Generation SDK**
+### Professional Request-Based Anti-Bot Solution
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Us-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/2QWbHcmWnf)
 [![Website](https://img.shields.io/badge/Website-Visit-00D4FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.parallaxsystems.io)
 
-*Fast, reliable, and simple anti-bot bypass solutions for DataDome and PerimeterX*
+**DataDome • PerimeterX • Request-Based API • Sub-400ms Response Times**
+
+Simple HTTP API for generating valid anti-bot cookies without browser overhead
 
 </div>
 
